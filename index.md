@@ -11,6 +11,12 @@ This document will explain the differences between Scalar, Inline, Multi-Stateme
 A Scalar Functions takes parameters, executes the code, and returns a single value. Generally, these are used to do perform calculations. 
 ### Inline
 An Inline function is similar to a view which returns a table from a single select statement. Unlike a table parameters can be used. 
+
+![This is an image](https://github.com/vrplkv/DBFoundations-Module07/blob/main/Figure1.PNG?raw=true "Figure 1. Example of the creation an Inline Function")
+
+Figure 1. Example of the creation an Inline Function
+
+
 ### Multi-Statement
 A Multi-Statement function can return a table built from multiple select statements and from various sources. This is useful to execute multiple queries and aggregate results into the returned table of the function. 
 ### User Defined Function (UDF)
